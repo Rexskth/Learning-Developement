@@ -235,3 +235,4 @@ function createUser(name, email, isAdmin = false) {
 
 // 1. What is Destructuring?
 // A concise way to extract values from objects (or arrays) into distinct variables.
+
