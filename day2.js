@@ -178,12 +178,10 @@ console.log(user?.preferences?.theme); // "dark"
 // Dot notation (most common)
 console.log(user.name); // "Alex Johnson"
 
-// Bracket notation (dynamic keys)
-const key = 'lastLogin';
-console.log(user[key]); // Current date
 
-// Optional chaining (modern JS)
-console.log(user?.preferences?.theme); // "dark"
+
+
+
 
 
 // Adding properties
