@@ -1,1 +1,1 @@
-# Learning-JS-basics
+# Learning-Dev
