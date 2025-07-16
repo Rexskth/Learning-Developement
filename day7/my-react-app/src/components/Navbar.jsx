@@ -5,14 +5,15 @@ import { FaBars, FaTimes } from 'react-icons/fa'; // Ensure react-icons is insta
 // Styled Components
 const NavbarContainer = styled.nav`
   display: flex;
-  // align-items: center; /* Ensure vertical centering */
+  align-items: center; /* Ensure vertical centering */
   background-color: #ffffff;
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   max-width: 1200px; /* Fixed width with maximum limit */
-  margin: 0 auto; /* Center the navbar with equal margins on both sides */
+  // margin: 0 auto; /* Center the navbar with equal margins on both sides */
+  margin-left: 1rem;
   left: 50%;
   transform: translateX(-50%); /* Center it perfectly */
   top: 0;
@@ -100,8 +101,8 @@ const NavLink = styled.a`
 const ActionButtons = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 3rem; /* Increased margin from right end for more space */
-  padding-left: 2rem; /* Added padding to create separation from center links */
+  margin-right: 0rem; /* Increased margin from right end for more space */
+  padding-left: 10rem; /* Added padding to create separation from center links */
 `;
 
 const LoginButton = styled.button`
