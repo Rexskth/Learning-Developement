@@ -2,5 +2,5 @@
 
 // Todays Learning info
 
-  https://github.com/Rexskth/nextjs-dashboard
+// Github -   https://github.com/Rexskth/nextjs-dashboard
 
